@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="form-group">
-                    {!! Form::label('photos', 'Photo:', ) !!}
+                    {!! Form::label('photos', 'Photo:') !!}
                     {!! Form::file('photos[]',['multiple'=>'multiple']) !!}
                 </div>
 

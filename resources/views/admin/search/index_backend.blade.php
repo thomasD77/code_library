@@ -1,7 +1,7 @@
 @extends('layouts.admin_template')
 @section('content')
 
-    <h1 class="my-4"><span class="badge badge-danger display-1 shadow text-uppercase">Backend Data</span></h1>
+    <h1 class="my-4"><span class="badge badge-dark display-1 shadow text-uppercase">Development Data</span></h1>
 
     @if(Session::has('backend_message'))
         <p class="alert alert-info my-3">{{session('backend_message')}}</p>
@@ -14,6 +14,11 @@
         </span>
         </h3>
     </div>
+    <form class="d-flex px-3 py-2" action="{{action('App\Http\Controllers\BackendController@search_item')}}" method="post">
+        @csrf
+        <input name="searchbar" type="text" class="form-control text-dark" placeholder="Search for Data...">
+        <button class="btn btn-dark" type="submit">Search</button>
+    </form>
     <table class="table table-striped">
         <thead>
         <tr> <th scope="col"></th>
@@ -32,8 +37,8 @@
                 <tr>
                     <td><a href="{{route('backend.show', $backend->id)}}"><i class="fas fa-eye text-dark"></i></a></td>
                     <td>{{$backend->id ? $backend->id : 'No ID'}}</td>
-                    <td><span class="rounded-pill text-white bg-success p-1">{{$backend->type ? $backend->type->name : 'No Name'}}</span></td>
-                    <td>{{$backend->description ? Str::limit($backend->description, 150) : 'No Description'}}</td>
+                    <td><span class="rounded-pill text-white bg-success p-2">{{$backend->type ? $backend->type->name : 'No Name'}}</span></td>
+                    <td><a class="text-decoration-none text-dark" href="{{route('backend.show', $backend->id)}}">{{$backend->description ? Str::limit($backend->description, 150) : 'No Description'}}</a></td>
                     <td>{{$backend->comment ? Str::limit($backend->comment, 150) : 'No Comment'}}</td>
                     <td>{{$backend->created_at->diffForHumans()}}</td>
                     <td>{{$backend->updated_at->diffForHumans()}}</td>
@@ -41,9 +46,9 @@
                         <a href="{{route('backend.edit', $backend->id)}}"><i class="fas fa-edit text-dark mx-2"></i></a>
                         {!! Form::open(['method'=>'DELETE',
                                'action'=>['App\Http\Controllers\BackendController@destroy', $backend->id]]) !!}
-                            <div class="form-group">
-                                {!! Form::button('<i class="far fa-trash-alt"></i>', ['type'=>'submit','class'=>'text-danger border-0']) !!}
-                            </div>
+                        <div class="form-group">
+                            {!! Form::button('<i class="far fa-trash-alt"></i>', ['type'=>'submit','class'=>'text-danger border-0 bg-transparent']) !!}
+                        </div>
                         {!! Form::close() !!}
                     </td>
                 </tr>

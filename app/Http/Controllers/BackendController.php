@@ -19,7 +19,7 @@ class BackendController extends Controller
     public function index()
     {
         //
-        $backends = Backend::paginate(10);
+        $backends = Backend::latest()->paginate(20);
         return view('cms.backend.index', compact('backends'));
     }
 
