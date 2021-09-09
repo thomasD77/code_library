@@ -1,15 +1,6 @@
 @extends('layouts.admin_template')
 @section('content')
-    <div class="d-flex mx-4">
-        <div class="d-flex align-items-center col-6 ">
-            <h1><span class="badge badge-dark display-1 shadow my-4">Key</span></h1>
-            <div class="ml-5">
-                <h5 class="card-text">Created:{{$key->created_at->diffForHumans()}}</h5>
-                <h5 class="card-text">Updated:{{$key->updated_at->diffForHumans()}}</h5>
-            </div>
-        </div>
-    </div>
-    {{ dump($keys) }}
+
     @foreach($keys as $key)
     @if($key->subject->name == 'DATABASE')
         <table class="table table-striped">
@@ -20,6 +11,8 @@
                 <th scope="col">password</th>
                 <th scope="col">email</th>
                 <th scope="col">url</th>
+                <th scope="col">created_at</th>
+                <th scope="col">updated_at</th>
                 <th scope="col">Actions</th>
             </tr>
             </thead>
@@ -28,7 +21,7 @@
                     <tr>
                         <td>{{$key->id ? $key->id : 'No ID'}}</td>
                         <td><span class="rounded-pill text-white bg-success p-2">{{$key->login ? $key->login : 'No login'}}</span></td>
-                        <td><a class="text-decoration-none text-dark" href="{{route('keys.show', $key->id)}}">{{$key->password ? $key->password : 'No password'}}</a></td>
+                        <td><a class="text-decoration-none text-dark" href="{{route('projects.show', $key->project->id)}}">{{$key->password ? $key->password : 'No password'}}</a></td>
                         <td>{{$key->email ? $key->email : 'No email'}}</td>
                         <td>{{$key->url ? $key->url : 'No url'}}</td>
                         <td>{{$key->created_at->diffForHumans()}}</td>
@@ -58,6 +51,8 @@
                 <th scope="col">password</th>
                 <th scope="col">email</th>
                 <th scope="col">url</th>
+                <th scope="col">created_at</th>
+                <th scope="col">updated_at</th>
                 <th scope="col">Actions</th>
             </tr>
             </thead>
@@ -96,6 +91,8 @@
                 <th scope="col">password</th>
                 <th scope="col">email</th>
                 <th scope="col">url</th>
+                <th scope="col">created_at</th>
+                <th scope="col">updated_at</th>
                 <th scope="col">Actions</th>
             </tr>
             </thead>
@@ -134,6 +131,8 @@
                 <th scope="col">password</th>
                 <th scope="col">email</th>
                 <th scope="col">url</th>
+                <th scope="col">created_at</th>
+                <th scope="col">updated_at</th>
                 <th scope="col">Actions</th>
             </tr>
             </thead>
@@ -172,6 +171,8 @@
                 <th scope="col">password</th>
                 <th scope="col">email</th>
                 <th scope="col">url</th>
+                <th scope="col">created_at</th>
+                <th scope="col">updated_at</th>
                 <th scope="col">Actions</th>
             </tr>
             </thead>

@@ -117,6 +117,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>[]], function(){
     Route::resource('backend', App\Http\Controllers\BackendController::class);
     Route::delete('backend/destroy/photo/{id}', 'App\Http\Controllers\BackendController@destroyPhoto');
     Route::post('backend/search', 'App\Http\Controllers\BackendController@search_item');
+    Route::resource('projects', App\Http\Controllers\AdminProjectController::class);
 
     Route::resource('keys', App\Http\Controllers\KeyController::class);
     Route::post('keys/search', 'App\Http\Controllers\KeyController@search_item');

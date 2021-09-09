@@ -6,6 +6,10 @@
             <div class="col-md-10 offset-1">
                 {!! Form::open(['method'=>'POST', 'action'=>'App\Http\Controllers\KeyController@store','files'=>false]) !!}
                 <div class="form-group col-6 px-0">
+                    {!! Form::label('Select Project Name:') !!}
+                    {!! Form::select('project_id',$projects,null,['class'=>'form-control'])!!}
+                </div>
+                <div class="form-group col-6 px-0">
                     {!! Form::label('Select Subject:') !!}
                     {!! Form::select('subject_id',$categories,null,['class'=>'form-control'])!!}
                 </div>
@@ -16,11 +20,6 @@
                 <div class="form-group">
                     {!! Form::label('url', 'Url:') !!}
                     {!! Form::text('url',null,['class'=>'form-control']) !!}
-                </div>
-
-                <div class="form-group">
-                    {!! Form::label('name', 'Name:') !!}
-                    {!! Form::text('name',null,['class'=>'form-control']) !!}
                 </div>
                 <div class="form-group">
                     {!! Form::label('login', 'Login:') !!}
