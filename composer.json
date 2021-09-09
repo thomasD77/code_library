@@ -18,7 +18,8 @@
         "laravel/ui": "^3.2",
         "laravelcollective/html": "^6.2",
         "livewire/livewire": "^2.5",
-        "mollie/laravel-mollie": "^2.14"
+        "mollie/laravel-mollie": "^2.14",
+        "spatie/laravel-backup": "^6.16"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",

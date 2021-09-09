@@ -118,6 +118,9 @@ Route::group(['prefix'=>'admin', 'middleware'=>[]], function(){
     Route::delete('backend/destroy/photo/{id}', 'App\Http\Controllers\BackendController@destroyPhoto');
     Route::post('backend/search', 'App\Http\Controllers\BackendController@search_item');
 
+    Route::resource('keys', App\Http\Controllers\KeyController::class);
+    Route::post('keys/search', 'App\Http\Controllers\KeyController@search_item');
+
     Route::resource('frontend', App\Http\Controllers\FrontendController::class);
     Route::delete('frontend/destroy/photo/{id}', 'App\Http\Controllers\FrontendController@destroyPhoto');
     Route::post('frontend/search', 'App\Http\Controllers\FrontendController@search_item');

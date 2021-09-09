@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62948f42-17df-47e0-82ca-4d973e8e247e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/cms/keys/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cms/keys/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cms/keys/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cms/keys/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/divemaster_vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/divemaster_vue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BackendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/search/index_backend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/search/index_backend.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cms/backend/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/backend/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cms/backend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/backend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +169,9 @@
       <path value="$PROJECT_DIR$/vendor/mollie/laravel-mollie" />
       <path value="$PROJECT_DIR$/vendor/mollie/mollie-api-php" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
+      <path value="$PROJECT_DIR$/vendor/spatie/db-dumper" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-backup" />
     </include_path>
   </component>
   <component name="ProjectId" id="1sF3IzKioF5oWyC91R0NUE5hFAI" />
@@ -175,7 +183,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/cms/keys" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -185,11 +193,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/cms/keys" />
       <recent name="C:\wamp64.2\www\library\public\images\frontend" />
       <recent name="C:\wamp64.2\www\library\resources\views\admin\search" />
       <recent name="C:\wamp64.2\www\library\resources\views\cms" />
       <recent name="C:\wamp64.2\www\library\app\Http\Controllers" />
-      <recent name="C:\wamp64.2\www\library\resources\views\cms\backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64.2\www\divemaster_vue\app\Http\Requests" />
@@ -277,11 +285,25 @@
       <workItem from="1627822445727" duration="70000" />
       <workItem from="1627825061698" duration="103000" />
       <workItem from="1627825345147" duration="622000" />
-      <workItem from="1631174706038" duration="1961000" />
+      <workItem from="1631174706038" duration="3104000" />
+      <workItem from="1631180885157" duration="949000" />
+      <workItem from="1631184646828" duration="459000" />
+      <workItem from="1631185252158" duration="5620000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
