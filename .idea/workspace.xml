@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62948f42-17df-47e0-82ca-4d973e8e247e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/search/index_keys.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cms/projects/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cms/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/divemaster_vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/divemaster_vue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/KeyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/KeyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Key.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Key.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cms/keys/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/keys/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cms/keys/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/keys/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cms/keys/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/keys/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +283,7 @@
       <workItem from="1631180885157" duration="949000" />
       <workItem from="1631184646828" duration="459000" />
       <workItem from="1631185252158" duration="8064000" />
-      <workItem from="1631195707629" duration="4706000" />
+      <workItem from="1631195707629" duration="7076000" />
     </task>
     <servers />
   </component>

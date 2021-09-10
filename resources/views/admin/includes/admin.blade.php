@@ -6,17 +6,21 @@
 
             <!-- Backend Card Example -->
             <div class="col-12 mb-4 mt-4">
-                    <div class="card border-left-dark shadow h-100 py-2">
+                    <div class="card border-left-dark shadow h-100 py-2"> <div class="col-auto">
+                            <h3 class="mr-4">
+                            <span class="badge badge-dark display-1 shadow my-2">
+                                <i class="fas fa-plus"></i>
+                                <a class="text-white text-decoration-none" href="{{route('backend.create')}}">Data</a>
+                            </span>
+                            </h3>
+                        </div>
                         <a class="text-decoration-none" href="{{route('backend.index')}}">
                             <div class="card-body">
-                                <div class="row no-gutters align-items-center">
+                                <div class="row no-gutters align-items-center justify-content-between">
                                     <div class="col mr-2">
                                         <h3 class=" font-weight-bold text-dark text-uppercase mb-1">
                                             Development Data</h3>
                                         <div class="h5 mb-0 font-weight-bold text-gray-800 my-2 text-dark">No. Files {{ $backend->total() }}</div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <i class="fas fa-list-ul text-dark fa-2x"></i>
                                     </div>
                                 </div>
                             </div>
@@ -27,6 +31,7 @@
                             <button class="btn btn-dark" type="submit">Search</button>
                         </form>
                     </div>
+
             </div>
 
             <!-- Frontend Card Example -->
