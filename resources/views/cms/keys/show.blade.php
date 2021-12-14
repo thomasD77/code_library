@@ -9,8 +9,6 @@
             </div>
         </div>
     </div>
-    {{ dump($keys) }}
-    @foreach($keys as $key)
     @if($key->subject->name == 'DATABASE')
         <table class="table table-striped">
             <thead>
@@ -46,9 +44,9 @@
             </tbody>
         </table>
     @endif
-    @endforeach
 
-    @foreach($keys as $key)
+
+
     @if($key->subject->name == '(SFTP)FTP')
         <table class="table table-striped">
             <thead>
@@ -84,9 +82,9 @@
             </tbody>
         </table>
     @endif
-    @endforeach
 
-    @foreach($keys as $key)
+
+
     @if($key->subject->name == 'BACKOFFICE')
         <table class="table table-striped">
             <thead>
@@ -122,9 +120,9 @@
             </tbody>
         </table>
     @endif
-    @endforeach
 
-    @foreach($keys as $key)
+
+
     @if($key->subject->name == 'EXTRA')
         <table class="table table-striped">
             <thead>
@@ -160,9 +158,7 @@
             </tbody>
         </table>
     @endif
-    @endforeach
 
-    @foreach($keys as $key)
     @if($key->subject->name == 'EMAIL')
         <table class="table table-striped">
             <thead>
@@ -198,7 +194,7 @@
             </tbody>
         </table>
     @endif
-    @endforeach
+
 
 
 @stop

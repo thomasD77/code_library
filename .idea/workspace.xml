@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62948f42-17df-47e0-82ca-4d973e8e247e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/foam-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cms/backend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/backend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cms/keys/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/keys/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cms/keys/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cms/keys/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +183,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/cms/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -187,11 +193,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/resources/views/cms/projects" />
       <recent name="$PROJECT_DIR$/resources/views/cms/keys" />
       <recent name="C:\wamp64.2\www\library\public\images\frontend" />
       <recent name="C:\wamp64.2\www\library\resources\views\admin\search" />
-      <recent name="C:\wamp64.2\www\library\resources\views\cms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64.2\www\divemaster_vue\app\Http\Requests" />
@@ -283,7 +289,15 @@
       <workItem from="1631180885157" duration="949000" />
       <workItem from="1631184646828" duration="459000" />
       <workItem from="1631185252158" duration="8064000" />
-      <workItem from="1631195707629" duration="7076000" />
+      <workItem from="1631195707629" duration="8342000" />
+      <workItem from="1631539669818" duration="48000" />
+      <workItem from="1631860820826" duration="101000" />
+      <workItem from="1632120539577" duration="1435000" />
+      <workItem from="1632122071525" duration="3139000" />
+      <workItem from="1632223268047" duration="65000" />
+      <workItem from="1633090124834" duration="3060000" />
+      <workItem from="1633107106787" duration="783000" />
+      <workItem from="1639506885308" duration="770000" />
     </task>
     <servers />
   </component>

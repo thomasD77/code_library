@@ -59,6 +59,35 @@
     <div class="d-flex justify-content-center">
         {{$backends->links()}}
     </div>
+
+    <div class="popup modal fade" id="popup" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">&nbsp;</div>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icon-cancel"></i></span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div>
+                        <p>      Latexco Solutions is present during Foam Expo 2021. We would be pleased to welcome you in Hall 1 – Stand 160.
+                            9 – 11 november 2021 – Stuttgart, Germany
+                        </p>
+                    </div>
+                    <div class="d-md-flex justify-content-md-about align-items-md-center">
+                        <img src="{{asset('images/foam-logo.png')}}" alt="">
+                        <a target="_blank" href="https://www.foam-expo.eu/"><button class="btn btn-primary ml-md-5 mt-3">Click here</button></a>
+                    </div>
+                </div><!--/ .modal-body -->
+            </div>
+        </div>
+    </div><!--/ .modal -->
+
+
+    <script>$('#popup').modal('show');</script>
 @stop
 
 

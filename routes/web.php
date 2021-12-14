@@ -68,12 +68,13 @@ Route::get('/removeItemList/{id}','App\Http\Controllers\FrontendController@remov
 Route::post('/discount/', 'App\Http\Controllers\AdminCouponController@Coupon');
 
 
-
+// General settings
+Auth::routes(['verify'=> true]);
 
 /// Backend ///
 
 // Admin
-Route::group(['prefix'=>'admin', 'middleware'=>[ ]], function(){
+Route::group(['prefix'=>'admin', 'middleware'=>[ 'auth']], function(){
     Route::get('restore/{user}', 'App\Http\Controllers\AdminUsersController@userRestore')->name('admin.userRestore');
     Route::get('archives', 'App\Http\Controllers\AdminUsersController@userArchive')->name('users.archives');
     Route::resource('roles', App\Http\Controllers\AdminRolesController::class);
@@ -113,7 +114,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>[ ]], function(){
 });
 
 // Backend Customer
-Route::group(['prefix'=>'admin', 'middleware'=>[]], function(){
+Route::group(['prefix'=>'admin', 'middleware'=>['auth']], function(){
     Route::resource('backend', App\Http\Controllers\BackendController::class);
     Route::delete('backend/destroy/photo/{id}', 'App\Http\Controllers\BackendController@destroyPhoto');
     Route::post('backend/search', 'App\Http\Controllers\BackendController@search_item');

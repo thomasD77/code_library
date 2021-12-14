@@ -26,13 +26,13 @@
         <!-- Divider -->
         <hr class="sidebar-divider">
 
-        <li class="nav-item">
-            <a class="collapse-item text-decoration-none text-center text-white ml-3" href="{{route('backend.index')}}"><i class="fas fa-list-ul mr-1"></i>Library</a>
+        <li class="nav-item my-4">
+            <a class="collapse-item text-decoration-none text-center text-white ml-3" href="{{route('backend.index')}}"><i class="fas fa-list-ul mr-2"></i>Library</a>
         </li>
 
-        <li class="nav-item">
-            <a class="collapse-item text-decoration-none text-center text-white ml-3" href="{{route('keys.index')}}"><i class="fas fa-key  mt-3 mr-1"></i>Keys</a>
-        </li>
+{{--        <li class="nav-item my-4">--}}
+{{--            <a class="collapse-item text-decoration-none text-center text-white ml-3" href="{{route('keys.index')}}"><i class="fas fa-key  mt-3 mr-2"></i>Keys</a>--}}
+{{--        </li>--}}
 
         <!-- Divider -->
 {{--        <hr class="sidebar-divider d-none d-md-block">--}}

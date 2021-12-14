@@ -34,7 +34,12 @@
 
             </div>
 
-            <!-- Frontend Card Example -->
+
+
+
+
+
+        <!-- Frontend Card Example -->
 {{--            <div class="col-md-6 mb-4 mt-4">--}}
 {{--                <div class="card border-left-primary shadow h-100 py-2">--}}
 {{--                    <a class="text-decoration-none" href="{{route('frontend.index')}}">--}}
