@@ -73,6 +73,8 @@ Auth::routes(['verify'=> true]);
 
 /// Backend ///
 
+Route::redirect('/', '/admin');
+
 // Admin
 Route::group(['prefix'=>'admin', 'middleware'=>[ 'auth']], function(){
     Route::get('restore/{user}', 'App\Http\Controllers\AdminUsersController@userRestore')->name('admin.userRestore');
